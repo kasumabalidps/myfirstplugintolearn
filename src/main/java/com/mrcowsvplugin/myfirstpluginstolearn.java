@@ -1,5 +1,6 @@
 package com.mrcowsvplugin;
 
+import com.mrcowsvplugin.listeners.ShearSheepListener;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -15,6 +16,7 @@ public final class myfirstpluginstolearn extends JavaPlugin implements Listener 
         System.out.println("§7[§6mrcowsvpl§7] §aPlugins First Started");
 
         getServer().getPluginManager().registerEvents(this, this);
+        getServer().getPluginManager().registerEvents(new ShearSheepListener(), this);
     }
 
     @EventHandler

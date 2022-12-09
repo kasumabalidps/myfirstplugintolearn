@@ -40,7 +40,7 @@
                         </goals>
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
-                            <outputDirectory>C:\Users\panda\Desktop\ServerMC-BuatTestPL\plugins</outputDirectory>
+                            <outputDirectory>C:\Users\panda\Desktop\ServerMC-BuatTestPL\plugins\</outputDirectory>
                         </configuration>
                     </execution>
                 </executions>
