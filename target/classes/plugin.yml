@@ -1,0 +1,6 @@
+name: Myfirstpluginstolearn
+version: '1.0-SNAPSHOT'
+main: com.mrcowsvplugin.myfirstpluginstolearn
+api-version: 1.19
+authors: [ mrcowsv ]
+description: My first plugins to Learn
