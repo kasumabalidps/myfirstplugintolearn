@@ -16,7 +16,7 @@ public class ShearSheepListener implements Listener {
         if (entity.getType() == EntityType.SHEEP){
             player.sendMessage("Itu bukan sheep pergi sanaaaa hushhh");
             event.setCancelled(true);
-        }else {
+        }else{
             player.sendMessage("Itu baru sheep kawan kamu terbalik");
         }
     }
