@@ -1,6 +1,8 @@
 package com.mrcowsvplugin;
 
+import com.mrcowsvplugin.commands.Commandfeed;
 import com.mrcowsvplugin.commands.Commandfly;
+import com.mrcowsvplugin.commands.Commandheal;
 import com.mrcowsvplugin.commands.Commandkillself;
 import com.mrcowsvplugin.listeners.JoinandLeftListener;
 import com.mrcowsvplugin.listeners.ShearSheepListener;
@@ -18,6 +20,8 @@ public final class myfirstpluginstolearn extends JavaPlugin implements Listener 
         getServer().getPluginManager().registerEvents(new ShearSheepListener(), this);
         getCommand("killself").setExecutor(new Commandkillself());
         getCommand("fly").setExecutor(new Commandfly());
+        getCommand("feed").setExecutor(new Commandfeed());
+        getCommand("heal").setExecutor(new Commandheal());
     }
 
     @Override

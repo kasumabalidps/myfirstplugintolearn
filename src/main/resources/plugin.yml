@@ -17,3 +17,13 @@ commands:
     permission: mrcowsv.fly
     permission-message: You do not have permission to use this command.
     usage: "Usage: /<command>"
+  feed:
+    description: Feeding you.
+    permission: mrcowsv.feed
+    permission-message: You do not have permission to use this command.
+    usage: "Usage: /<command>"
+  heal:
+    description: Healing you.
+    permission: mrcowsv.heal
+    permission-message: You do not have permission to use this command.
+    usage: "Usage: /<command>"
