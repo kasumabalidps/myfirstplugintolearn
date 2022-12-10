@@ -4,3 +4,10 @@ main: com.mrcowsvplugin.myfirstpluginstolearn
 api-version: 1.19
 authors: [ mrcowsv ]
 description: My first plugins to Learn
+commands:
+  killself:
+    description: Kill your self.
+    aliases: [die]
+    permission: mrcowsv.killself
+    permission-message: You do not have permission to use this command.
+    usage: "Usage: /<command>"
