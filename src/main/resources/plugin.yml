@@ -6,24 +6,24 @@ authors: [ mrcowsv ]
 description: My first plugins to Learn
 commands:
   killself:
-    description: Kill your self.
+    description: Kill your selfs
     aliases: [die, kill]
     permission: mrcowsv.killself
     permission-message: You do not have permission to use this command.
     usage: "Usage: /<command>"
   fly:
-    description: Make you flying.
+    description: Make you flying
     aliases: [flying]
     permission: mrcowsv.fly
     permission-message: You do not have permission to use this command.
     usage: "Usage: /<command>"
   feed:
-    description: Feeding you.
+    description: Feeding you
     permission: mrcowsv.feed
     permission-message: You do not have permission to use this command.
     usage: "Usage: /<command>"
   heal:
-    description: Healing you.
+    description: Healing you
     permission: mrcowsv.heal
     permission-message: You do not have permission to use this command.
     usage: "Usage: /<command>"
