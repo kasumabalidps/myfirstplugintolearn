@@ -1,5 +1,7 @@
 package com.mrcowsvplugin.commands;
 
+import org.bukkit.ChatColor;
+import org.bukkit.GameMode;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -14,6 +16,13 @@ public class Commandkillself implements CommandExecutor {
         if (command.getName().equalsIgnoreCase("killself")){
             if (sender instanceof Player){
                 Player player = (Player) sender;
+                if (command.getName().equalsIgnoreCase("fly")) {
+                    // check kalau player itu gak gamemode creative
+                    if (!player.hasPermission("mrcowsv.killself")) {
+                        player.sendMessage(ChatColor.RED + "You do not have permission to fly.");
+                        return true;
+                    }
+                }
                 player.setHealth(0);
                 player.sendMessage("§cYou die dummy");
             }else{
