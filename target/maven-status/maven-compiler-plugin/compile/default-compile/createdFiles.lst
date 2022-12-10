@@ -1,3 +1,5 @@
 com\mrcowsvplugin\listeners\JoinandLeftListener.class
 com\mrcowsvplugin\listeners\ShearSheepListener.class
 com\mrcowsvplugin\myfirstpluginstolearn.class
+com\mrcowsvplugin\commands\Commandkillself.class
+com\mrcowsvplugin\commands\Commandfly.class

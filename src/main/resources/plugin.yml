@@ -11,3 +11,9 @@ commands:
     permission: mrcowsv.killself
     permission-message: You do not have permission to use this command.
     usage: "Usage: /<command>"
+  fly:
+    description: Make you flying.
+    aliases: [flying]
+    permission: mrcowsv.fly
+    permission-message: You do not have permission to use this command.
+    usage: "Usage: /<command>"
