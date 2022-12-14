@@ -1,5 +1,5 @@
-com\mrcowsvplugin\listeners\JoinandLeftListener.class
 com\mrcowsvplugin\commands\Commandheal.class
+com\mrcowsvplugin\listeners\PlayerJoinListener.class
 com\mrcowsvplugin\commands\Commandkillself.class
 com\mrcowsvplugin\commands\Commandfly.class
 com\mrcowsvplugin\listeners\ShearSheepListener.class

@@ -4,7 +4,6 @@ import com.mrcowsvplugin.commands.Commandfeed;
 import com.mrcowsvplugin.commands.Commandfly;
 import com.mrcowsvplugin.commands.Commandheal;
 import com.mrcowsvplugin.commands.Commandkillself;
-import com.mrcowsvplugin.listeners.JoinandLeftListener;
 import com.mrcowsvplugin.listeners.ShearSheepListener;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -16,7 +15,6 @@ public final class myfirstpluginstolearn extends JavaPlugin implements Listener 
         // Plugin startup logic
         System.out.println("§7[§6mrcowsvpl§7] §aPlugins First Started");
 
-        getServer().getPluginManager().registerEvents(new JoinandLeftListener(), this);
         getServer().getPluginManager().registerEvents(new ShearSheepListener(), this);
         getCommand("killself").setExecutor(new Commandkillself());
         getCommand("fly").setExecutor(new Commandfly());
